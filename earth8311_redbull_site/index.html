@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#a90000">
+  <title>Earth-8311 Red Bull | Racing Performance</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; width: 100%; }
+    body {
+      min-height: 100vh;
+      min-height: 100svh;
+      display: grid;
+      place-items: center;
+      overflow-x: hidden;
+      background: #a90000;
+    }
+    .logo-wrap {
+      width: min(100vw, 100vh, 100svh);
+      width: min(100vw, 100svh);
+      display: block;
+      line-height: 0;
+    }
+    .logo-wrap img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+    @media (min-aspect-ratio: 1/1) {
+      .logo-wrap { width: min(100vh, 100vw); }
+    }
+  </style>
+</head>
+<body>
+  <main class="logo-wrap" aria-label="BULL Racing Performance">
+    <img src="redbull-logo.jpeg" alt="BULL Racing Performance logo on a red background">
+  </main>
+</body>
+</html>
